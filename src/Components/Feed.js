@@ -8,7 +8,7 @@ const Feed = () => {
     // Refer to Hint 2 for more help!
     const [blocks, setBlocks] = useState([]);
     /* Use the map() function to render multiple Blocks! */
-    const posts = blocks.map((block) => <Block color = {block}></Block>);
+    const posts = blocks.map((block) => <Block color = {block} caption={block}></Block>);
     const updatePosts = (color) => {
         setBlocks(posts => [color, ...posts]);
     };

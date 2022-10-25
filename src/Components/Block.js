@@ -12,7 +12,7 @@ const Block = (props) => {
             If curious, check out the css in Styles/Block.css */}
             {/* Refer to hint if stuck on how to color the posts */}
             <div className="post" style={{background: props.color}}></div>
-            <div className="caption"></div>
+            <div className="caption">{props.color}</div>
         </div>
     );
 }
