@@ -11,9 +11,9 @@ const Menu = (props) => {
       <div className="colorOptions">
         
           <Color color="red" handleClick={props.handleClick}></Color>
-          <Color color="red" handleClick={props.handleClick}></Color>
-          <Color color="red" handleClick={props.handleClick}></Color>
-          <Color color="red" handleClick={props.handleClick}></Color>
+          <Color color="pink" handleClick={props.handleClick}></Color>
+          <Color color="blue" handleClick={props.handleClick}></Color>
+          <Color color="green" handleClick={props.handleClick}></Color>
       </div>
     );
 }
