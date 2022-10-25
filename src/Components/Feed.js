@@ -14,7 +14,7 @@ const Feed = () => {
     };
     return (
         <div>
-            <Menu onClick={updatePosts}></Menu>
+            <Menu handleClick={updatePosts}></Menu>
 
             {/* Below is where all of your Blocks should render! */}
             {posts}
